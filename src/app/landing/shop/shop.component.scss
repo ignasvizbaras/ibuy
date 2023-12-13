@@ -1,0 +1,123 @@
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.filter-container{
+    width: 100%;
+    height: 50px;
+    background-color: #6C6C6C;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+select{
+    background-color: #50B7FF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 14%;
+    height: 60%;
+    font-size: 18px;
+    font-weight: normal;
+    //margin: 35px;
+    margin: 3%;
+    text-indent: 10px;
+}
+
+.ads-container{
+    margin: 20px;
+    display: flex;
+}
+
+.first-ad{
+    width: 150px;
+    height: 300px;
+}
+
+.first-ad-photo{
+    width: 150px;
+    height: 300px;
+}
+
+.second-ad{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+.second-ad-photo{
+    width: 500px;
+    height: 300px; 
+}
+
+.third-ad{
+    width: 200px;
+    height: 300px;
+}
+
+.third-ad-photo{
+    width: 200px;
+    height: 300px;
+}
+
+.items-container{
+    margin-top: 60px;
+    display: flex;
+}
+
+.another-ad{
+    margin-top: 100%;
+}
+
+.recommended-items{
+    margin: 20px;
+    border: 1px solid #000000;
+    background-color: #BAE3FF;
+    height: calc(260 * 2);
+    width: 100%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    cursor: pointer;
+}
+
+.item-card {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin: 40px 0;
+    width: 240px;
+    height: 260px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.item-image{
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.item-price{
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.add-to-cart-button{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    height: 30px;
+    background-color: #50B7FF;
+}

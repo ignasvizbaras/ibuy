@@ -1,0 +1,151 @@
+.login-and-register-container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.login-container, .register-container{
+    width: 24%;
+    height: 50%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: relative;
+    margin: 5px;
+}
+
+.shadow{
+    border: 3px solid #50B7FF;
+}
+
+.dot{
+    width: 10%;
+    height: 10%;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.active-dot{
+    width: 8%;
+    height: 8%;
+    border-radius: 50px;
+    position: absolute;
+    top: -3.8%;
+    left: 3.3%;
+    background-color: #50B7FF;
+    cursor: pointer;
+}
+
+.login-header{
+    width: 20%;
+    height: 10%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    background-color: #50B7FF;
+}
+
+.register-header{
+    width: 28%;
+    height: 10%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    background-color: #50B7FF;
+}
+
+.login, .register{
+    font-size: 1.5rem;
+    position: absolute;
+    top: -4%;
+    left: 21.5%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+input{
+    width: 60%;
+    border: 0.5px solid #000000;
+    margin: 10px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #D9D9D9;
+    font-size: 1.25rem;
+}
+
+.social-media{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.facebook, .google{
+    border: 1px solid #000000;
+    margin: 10px;
+    height: 40px;
+    width: 27%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.facebook{
+    background-color: #1677F1;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.facebook-logo{
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
+
+.login-button{
+    background-color: #50B7FF;
+    border: 1px solid #000000;
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.register-button{
+    background-color: #50B7FF;
+    border: 1px solid #000000;
+    width: 26%;
+    height: 34px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+@media(min-width: 1800px){
+    .login, .register{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,46 @@
+<div class="container">
+        <div class="filter-container">
+            <select><option>Item type</option></select>
+            <select><option>Item type</option></select>
+            <select><option>Item type</option></select>
+            <select><option>Item type</option></select>
+            <select><option>Item type</option></select>
+        </div>
+
+
+
+        <div class="ads-container">
+            <div class="first-ad">
+                <img class="first-ad-photo" src="../../../assets/nvidia.png"/>
+            </div>
+            <div class="second-ad">
+                <img class="second-ad-photo" src="../../../assets/sale.png"/>
+            </div>
+            <div class="third-ad">
+                <img class="third-ad-photo" src="../../../assets/monitor.png"/>
+            </div>
+        </div>
+
+
+
+        <div class="items-container">
+        <div class="ads-container">
+            <div class="first-ad">
+                <img class="first-ad-photo another-ad" src="../../../assets/nvidia.png"/>
+            </div>
+        </div>
+
+        <div class="recommended-items" (click)="redirectToProduct()">
+            <div class="item-card" *ngFor="let item of items">
+                <p>{{item.description}}</p>
+                <img class="item-image" src="../../../assets/{{item.img}}"/>
+                <p class="item-price">{{item.price}}€</p>
+                <button class="add-to-cart-button">Add to cart</button>
+            </div>
+        </div>
+
+
+
+        </div>
+
+</div>

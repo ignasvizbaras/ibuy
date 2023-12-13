@@ -1,0 +1,162 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20%;
+    border: 1px solid #000000;
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header{
+    width: 20%;
+    height: 10%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    background-color: #50B7FF;
+}
+
+.header-name{
+    font-size: 1.5rem;
+    position: absolute;
+    top: -3.5%;
+    left: 9.5%;
+}
+
+.product-container{
+    margin: 20px;
+    height: 50%;
+    display: flex;
+}
+
+.rtx{
+    height: 100%;
+    width: 30%;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.price{
+    font-size: 1.25rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}
+
+.quantity{
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.25rem;
+    text-indent: 14px;
+}
+
+.add-to-cart{
+    width: 30%;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #50B7FF;
+    margin-top: 16px;
+    margin-left: 4%;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.more-information-container{
+    border-top: 1px solid #000000;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.headerr{
+    width: 30%;
+    height: 20%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    background-color: #50B7FF;
+}
+
+.headerr-name{
+    font-size: 1.5rem;
+    position: absolute;
+    top: -7%;
+    left: 8%;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.first{
+    margin-top: 20px;
+}
+
+.sale{
+    width: 120px;
+    height: 195px;
+    position: absolute;
+    right: -40%;
+}
+
+.nvidia{
+    width: 120px;
+    height: 195px;
+    margin-top: 215px;
+    position: absolute;
+    right: -40%;
+}
+
+
+
+
+@media(min-width: 1800px){
+    .header-name, .headerr-name{
+        font-size: 2rem;
+    }
+    .info-container{
+        margin: auto 0;
+    }
+    .first{
+        margin-top: 60px;
+    }
+    .sale{
+        width: 140px;
+        height: 250px;
+        position: absolute;
+        right: -40%;
+    }
+    
+    .nvidia{
+        width: 140px;
+        height: 250px;
+        margin-top: 270px;
+        position: absolute;
+        right: -40%;
+    }
+}

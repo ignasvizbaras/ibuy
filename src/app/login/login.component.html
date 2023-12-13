@@ -1,0 +1,39 @@
+<app-header></app-header>
+<app-main-banner></app-main-banner>
+
+<div class="login-and-register-container">
+    <div class="login-container" [ngClass]="{'shadow': login}">
+        <div class="dot" (click)="change('login')"></div>
+        <div *ngIf="login" class="active-dot"></div>
+        <div class="login-header"></div>
+        <div class="login">Login</div>
+        <div class="form">
+            <input placeholder="Username"/>
+            <input placeholder="Password"/>
+            <div class="social-media">
+            <div class="facebook">
+                <img  class="facebook-logo" src="../../assets/facebook.png"/>
+                <span>Login</span>
+            </div>
+            <div class="google">
+                <img  class="facebook-logo" src="../../assets/google.png"/>
+                <span>Login</span>
+            </div>
+        </div>
+        </div>
+        <button *ngIf="login" class="login-button">Login</button>
+    </div>
+    <div class="register-container" [ngClass]="{'shadow': !login}">
+    <div class="dot" (click)="change('register')"></div>
+    <div *ngIf="!login" class="active-dot"></div>
+    <div class="register-header"></div>
+    <div class="register">Register</div>
+    <div class="form">
+        <input placeholder="Username"/>
+        <input placeholder="Password"/>
+        <input placeholder="Repeat passsword"/>
+        <input placeholder="E-mail"/>
+        <button *ngIf="!login" class="register-button">Register</button>
+    </div>
+    </div>
+</div>

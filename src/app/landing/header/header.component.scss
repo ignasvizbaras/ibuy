@@ -1,0 +1,25 @@
+.container{
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+}
+
+.first-half, .second-half{
+    display: flex;
+    align-items: center;
+}
+
+.first-half{
+    margin-left: 16%;
+}
+
+.second-half{
+    margin-left: 36%;
+}
+
+
+h2{
+    font-size: 14px;
+    margin: 20px;
+}

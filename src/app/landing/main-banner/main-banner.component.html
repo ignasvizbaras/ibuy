@@ -1,0 +1,22 @@
+<div class="container">
+    <img class="logo" src="Images/logo.png" (click)="redirectToHome()"/>
+
+    <input class="search" type="text" placeholder="Search">
+
+    <div class="account-container">
+        <div class="account-buttons">
+            <h2 (click)="redirectToLogin()">Login</h2>
+            <h3 (click)="redirectToLogin()">Register</h3>
+        </div>
+        <div class="logo-container">
+            <img class="account-logo" src="../../../assets/account.png"/>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <div class="text-container">
+        <h2 class="cart-text" (click)="redirectToCart()">View Cart</h2>
+    </div>
+        <img class="cart-logo" (click)="redirectToCart()" src="../../../assets/shopping-cart.png"/>
+    </div>
+</div>
